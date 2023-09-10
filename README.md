@@ -28,8 +28,22 @@
 
 > 没有红色提示
 > Generate成功
+>
+> OpenSceneGraph\\examples\\osgviewerMFC\\stdafx.h修改成功
 
-![image-20230909150905601](images/image-20230909150905601.png)
+![image-20230910151922103](images/image-20230910151922103.png)
 
-此时是完成了[osg环境部署](https://blog.csdn.net/qq_43718758/article/details/129486298)博客的前两步，接下来看它的第三步：使用vs2017开始批生成，就可以了，它里面的环境变量配置有点问题，配置时注意它的路径和你的路径是否一样
+现在可以进入到OpenSceneGraph\build目录下打开sln了
+
+![image-20230910152216163.png](images/image-20230910152216163.png)
+
+
+
+打开后 生成-批生成，这一步很久需要3，4小时吧
+
+![请添加图片描述](https://img-blog.csdnimg.cn/e43175121d134f52809af8f2d49c05b6.png)
+
+![请添加图片描述](https://img-blog.csdnimg.cn/4864bc43d90a46aca1f867bd78a854be.png)
+
+一般来说如果你电脑安装的有MFC组件，就不会报错，会生成成功，之后再看这个博客的[osg环境部署 ](https://blog.csdn.net/qq_43718758/article/details/129486298)的第四步配置环境变量即可，注意在按照他的来配置用户环境变量时，OpenSceneGraph-Data我们的会再更深一级
 
